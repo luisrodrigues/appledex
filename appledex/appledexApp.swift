@@ -2,7 +2,7 @@
 //  appledexApp.swift
 //  appledex
 //
-//  Created by Rodrigues, Luis (EXTERN: EEDS) on 20/12/2022.
+//  Created by Rodrigues, Luis on 20/12/2022.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct appledexApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FrameworkGridView()
         }
     }
 }
