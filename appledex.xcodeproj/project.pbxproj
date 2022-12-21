@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8E1C5E2229535D9000BDFDDC /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C5E2129535D9000BDFDDC /* FrameworkGridViewModel.swift */; };
+		8E47EF842953AAAB00F59EA7 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E47EF832953AAAB00F59EA7 /* SafariView.swift */; };
 		8E81972429523638000AF594 /* appledexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E81972329523638000AF594 /* appledexApp.swift */; };
 		8E81972829523639000AF594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E81972729523639000AF594 /* Assets.xcassets */; };
 		8E81972B29523639000AF594 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E81972A29523639000AF594 /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		8E1C5E2129535D9000BDFDDC /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		8E47EF832953AAAB00F59EA7 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		8E81972029523638000AF594 /* appledex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appledex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E81972329523638000AF594 /* appledexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appledexApp.swift; sourceTree = "<group>"; };
 		8E81972729523639000AF594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				8E1C5E2129535D9000BDFDDC /* FrameworkGridViewModel.swift */,
 				8E8197352952385E000AF594 /* FrameworkGridView.swift */,
 				8E8ED9482952FC3800AB920A /* FrameworkDetailView.swift */,
+				8E47EF832953AAAB00F59EA7 /* SafariView.swift */,
 				8E8ED94A29530FE900AB920A /* AFButton.swift */,
 				8E819731295236EB000AF594 /* Framework.swift */,
 				8E81972729523639000AF594 /* Assets.xcassets */,
@@ -155,6 +158,7 @@
 				8E8ED94B29530FE900AB920A /* AFButton.swift in Sources */,
 				8E81972429523638000AF594 /* appledexApp.swift in Sources */,
 				8E1C5E2229535D9000BDFDDC /* FrameworkGridViewModel.swift in Sources */,
+				8E47EF842953AAAB00F59EA7 /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
