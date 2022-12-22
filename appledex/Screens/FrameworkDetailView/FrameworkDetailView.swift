@@ -9,12 +9,13 @@ import SwiftUI
 
 struct FrameworkDetailView: View {
 	var framework: Framework
-	@Binding var isShowingDetailView: Bool
+	
 	@State private var isShowingSafariView: Bool = false
 	
 	var body: some View {
 		VStack{
 			FrameworkTitleView(framework: framework)
+			
 			Text(framework.description)
 				.font(.body)
 				.padding()
@@ -23,13 +24,10 @@ struct FrameworkDetailView: View {
 				isShowingSafariView = true
 				
 			} label: {
-				//AFButton(title: "Learn more")
 				Label("Learn more", systemImage: "book.fill")
 			}
 			.buttonStyle(.bordered)
 			.controlSize(.large)
-			//.foregroundColor(.white)
-			//.buttonBorderShape(.roundedRectangle(radius: 10))
 			.tint(.red)
 		}
 		.fullScreenCover(isPresented: $isShowingSafariView) {
@@ -40,7 +38,7 @@ struct FrameworkDetailView: View {
 
 struct FrameworkDetailView_Previews: PreviewProvider {
 	static var previews: some View {
-		FrameworkDetailView(framework: MockData.sampleFramework, isShowingDetailView: .constant(false))
+		FrameworkDetailView(framework: MockData.sampleFramework)
 			.preferredColorScheme(.dark)
 	}
 }
